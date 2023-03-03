@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+}
+
+body {
+    background-color: rgb(31, 31, 31);
+}
+
+span {
+    display: inline-block;
+}
+
+.navigation {
+    height: 100%;
+    width: 240px;
+    background-color: black;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 50px;
+}
+
+.header {
+    vertical-align: top;
+    background-color: rgb(20, 20, 20);
+    width: calc(100% - 240px);
+}
+
+.header-left {
+    margin-left: 10px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.header-right {
+    margin-right: 10px;
+    float: right;
+}
+
+.button-signup, .button-login{
+    border: none;
+    margin: 8px;
+    height: 50px;
+    width: 100px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.button-signup {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(170, 170, 170);
+}
+
+.button-login {
+    background-color: white;
+    color: black;
+}
+
+.button-signup:hover, .button-login:hover {
+    scale: 1.05;
+    transition-duration: 0.05s;
+}
+
+.button-signup:hover {
+    color: white;
+}
+
+.nav-buttons {
+    display: block;
+}
+
+.grid-nav1 {
+    display: grid;
+    grid-template-columns: 30px 100px;
+    margin-top: 25px;
+    margin-left: 20px;
+    justify-items: start;
+    grid-row-gap: 20px;
+}
+
+.grid-nav2 {
+    display: grid;
+    grid-template-columns: 30px 100px;
+    margin-top: 40px;
+    margin-left: 20px;
+    justify-items: start;
+    grid-row-gap: 15px;
+}
+
+.button-nav {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+
+
+/*.globe {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: solid;
+    border-radius: 50px;
+    border-width: 1px;
+    font-weight: bold;
+    margin-top: 600px;
+    margin-left: 10px;
+    padding: 5px;
+    display: inline-flex;
+    vertical-align: middle;
+}*/
+
+.search-bar {
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 25px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+  
+.search-bar::placeholder {
+    font-family: Arial;
+    font-size: 16px;
+}
