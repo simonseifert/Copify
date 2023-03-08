@@ -28,7 +28,7 @@ span {
 
 .header {
     vertical-align: top;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(17, 17, 17);
     width: 100%;
     display: inline-block;
 }
@@ -60,17 +60,6 @@ span {
     margin-left: 23px;
     justify-items: start;
     grid-row-gap: 15px;
-}
-
-.headerpluscontent {
-    display: inline-block;
-    width: calc(100% - 240px);
-
-}
-
-.content-grid {
-    display: grid;
-    grid-template-columns: 150px 150px 150px;
 }
 
 /* all buttons */ .button-premium, .button-support, .button-download, .button-signup, .button-login, .button-home, .button-search, .button-library, .button-create, .button-liked {
@@ -131,9 +120,62 @@ span {
     color: white;
 }
 
+.headerpluscontent {
+    display: inline-block;
+    width: calc(100% - 240px);
 
+}
 
+.content {
+    padding: 20px 15px;
+}
 
+.content h2 {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.list {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.item {
+    min-width: 140px;
+    width: 190px;
+    padding: 15px;
+    background-color: rgb(24, 24, 24);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.item h4 {
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item p {
+    color: #989898;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.item:hover {
+    background-color: rgb(37, 37, 37);
+}
+
+.item-img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
 
 
 
