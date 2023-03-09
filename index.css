@@ -77,7 +77,7 @@ span {
 }
 
 /* navigation buttons on hover */ .button-home:hover, .button-search:hover, .button-library:hover, .button-create:hover, .button-liked:hover {
-    transition-duration: 0.1s;
+    transition-duration: 0.3s;
     color: white;
 }
 
@@ -92,7 +92,7 @@ span {
 
 /* header buttons on hover */ .button-premium:hover, .button-support:hover, .button-download:hover, .button-signup:hover, .button-login:hover {
     scale: 1.04;
-    transition-duration: 0.1s;
+    transition-duration: 0.3s;
     color: white;
 }
 
@@ -149,6 +149,14 @@ span {
     background-color: rgb(24, 24, 24);
     border-radius: 6px;
     cursor: pointer;
+    position:relative;
+    display:block;
+    float:left;
+    transition: 0.25s;
+}
+
+.item:hover {
+    background-color: rgb(37, 37, 37);
 }
 
 .item h4 {
@@ -167,28 +175,34 @@ span {
     font-weight: 600;
 }
 
-.item:hover {
-    background-color: rgb(37, 37, 37);
-}
-
 .item-img {
     width: 100%;
     border-radius: 6px;
     margin-bottom: 20px;
 }
 
+.play-icon {
+    visibility:hidden;
+    position:absolute;
+    left:60%;
+    top: 45%;
+    transition: 0.25s;
+    transition-timing-function: linear;
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+}
 
+.play-icon img {
+    width: 50px;
+    height: auto;
+}
 
-/*.globe {
-    background-color: rgba(0, 0, 0, 0);
-    color: white;
-    border: solid;
-    border-radius: 50px;
-    border-width: 1px;
-    font-weight: bold;
-    margin-top: 600px;
-    margin-left: 10px;
-    padding: 5px;
-    display: inline-flex;
-    vertical-align: middle;
-}*/
+.item:hover .play-icon {
+    visibility:visible;
+    transform: translateY(-5px);
+    transition-timing-function: linear;
+    width: 150px;
+    height: 300px;
+    opacity: .9;
+}
