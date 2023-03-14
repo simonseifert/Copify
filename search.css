@@ -148,10 +148,6 @@ body {
   padding-top: 20px;
 }
 
-.item:hover {
-  background-color: rgb(37, 37, 37);
-}
-
 .item h4 {
   color: #ffffff;
   font-size: 22px;
@@ -159,45 +155,6 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-
-.item p {
-  color: #afafaf;
-  font-size: 12px;
-  line-height: 20px;
-  font-weight: 500;
-}
-
-.item-img {
-  width: 100%;
-  border-radius: 6px;
-  margin-bottom: 20px;
-}
-
-.play-icon {
-  visibility:hidden;
-  position:absolute;
-  left:60%;
-  top: 40%;
-  transition: 0.25s;
-  transition-timing-function: linear;
-  width: 0px;
-  height: 0px;
-  opacity: 0;
-}
-
-.play-icon img {
-  width: 50px;
-  height: auto;
-}
-
-.item:hover .play-icon {
-  visibility: visible;
-  transform: translateY(-5px);
-  transition-timing-function: linear;
-  width: 150px;
-  height: 300px;
-  opacity: .9;
 }
 
 .main {
