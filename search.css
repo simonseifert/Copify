@@ -1,0 +1,352 @@
+*{
+  margin: 0;
+}
+
+body {
+  background-color: rgb(31, 31, 31);
+  font-family: 'Monseratt', sans-serif;
+}
+
+.navigation {
+  height: 900px;
+  width: 240px;
+  background-color: black;
+  display: inline-block;
+}
+
+.logo {
+  margin-top: 23px;
+  margin-left: 15px;
+  height: 43px;
+}
+
+.header {
+  vertical-align: top;
+  background-color: rgb(17, 17, 17);
+  width: 100%;
+  display: inline-block;
+  height: 65px;
+}
+
+.header-right {
+  margin-right: 10px;
+  float: right;
+}
+
+.grid-nav1 {
+  display: grid;
+  grid-template-columns: 35px 150px;
+  margin-top: 30px;
+  margin-left: 23px;
+  justify-items: start;
+  grid-row-gap: 15px;
+}
+
+.grid-nav2 {
+  display: grid;
+  grid-template-columns: 35px 150px;
+  margin-top: 40px;
+  margin-left: 23px;
+  justify-items: start;
+  grid-row-gap: 15px;
+}
+
+/* all buttons */ .button-premium, .button-support, .button-download, .button-signup, .button-login, .button-home, .button-search, .button-library, .button-create, .button-liked, .button-preview, .button-language {
+  border: none;
+  font-weight: bold;
+  color: rgb(170, 170, 170);
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+
+/* navigation buttons */ .button-home, .button-search, .button-library, .button-create, .button-liked {
+  width: 180px;
+  text-align: start;
+  font-size: 14px;
+}
+
+/* navigation buttons on hover */ .button-home:hover, .button-search:hover, .button-library:hover, .button-create:hover, .button-liked:hover {
+  transition-duration: 0.3s;
+  color: white;
+}
+
+/* header buttons */ .button-signup, .button-login, .button-premium, .button-support, .button-download, .button-preview {
+  margin: 8px;
+  height: 48px;
+  width: 108px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 15px;
+}
+
+/* header buttons on hover */ .button-premium:hover, .button-support:hover, .button-download:hover, .button-signup:hover, .button-login:hover, .button-preview:hover, .button-language:hover {
+  scale: 1.04;
+  transition-duration: 0.1s;
+  color: white;
+}
+
+.button-premium, .button-support, .button-download {
+  margin-right: 10px;
+  margin-left: -25px;
+  letter-spacing: 2px;
+}
+
+.button-login {
+  background-color: white;
+  color: black;
+  margin-right: 20px;
+}
+
+.button-login:hover {
+  color: black;
+}
+
+.button-signup {
+  width: 90px;
+  text-align: center;
+}
+
+.button-home {
+  color: white;
+}
+
+.headerpluscontent {
+  display: inline-block;
+  width: calc(100% - 240px);
+  height: 900px;
+}
+
+.content {
+  padding: 5px 30px 200px;
+  background-image: linear-gradient(rgb(31, 31, 31) , rgb(8, 8, 8));
+  height: calc(900px - 70px);
+  padding-bottom: 0;
+}
+
+.content h2 {
+  color: white;
+  font-size: 22px;
+  margin-bottom: 20px;
+  margin-top: 55px;
+}
+
+.list {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.item {
+  min-width: 100px;
+  padding: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  position:relative;
+  height: 150px;
+  width: 150px;
+  padding-top: 20px;
+}
+
+.item:hover {
+  background-color: rgb(37, 37, 37);
+}
+
+.item h4 {
+  color: #ffffff;
+  font-size: 22px;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.item p {
+  color: #afafaf;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.item-img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.play-icon {
+  visibility:hidden;
+  position:absolute;
+  left:60%;
+  top: 40%;
+  transition: 0.25s;
+  transition-timing-function: linear;
+  width: 0px;
+  height: 0px;
+  opacity: 0;
+}
+
+.play-icon img {
+  width: 50px;
+  height: auto;
+}
+
+.item:hover .play-icon {
+  visibility: visible;
+  transform: translateY(-5px);
+  transition-timing-function: linear;
+  width: 150px;
+  height: 300px;
+  opacity: .9;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 240px 100%;
+  height: 900px;
+}
+
+.preview {
+  width: 100%;
+  height: 68px;
+  background-image: linear-gradient(to right, #ae2896, #509bf5);
+  letter-spacing: 1px;
+}
+
+.preview-button {
+  float: right;
+}
+
+.button-preview {
+  background-color: white;
+  color: black;
+  letter-spacing: 0.5px;
+  padding: 10px;
+  height: 50px;
+  width: 150px;
+  margin-right: 20px;
+}
+
+.preview-text {
+  color: white;
+  padding: 13px;
+  font-size: 14;
+  display: inline-block;
+}
+
+.preview-p1 {
+  font-size: 12;
+  margin-bottom: 10px;
+}
+
+.preview-p2 {
+  letter-spacing: 0.4px;
+}
+
+.policies {
+  position: absolute;
+  bottom: 170px;
+  margin-left: 25px;
+}
+
+.cookies {
+  color: #afafaf;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+.cookies:hover {
+  text-decoration: underline;
+}
+
+.button-language {
+  position: absolute;
+  bottom: 100px;
+  margin-left: 25px;
+  color: white;
+  font-size: 13px;
+  letter-spacing: 0.8px;
+  border-color: #999999;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+  height: 30px;
+  padding-right: 10px;
+  vertical-align: middle;
+  padding-bottom: 2px;
+}
+
+.globe {
+  height: 15px;
+  margin-left: 5px;
+  vertical-align: text-bottom;
+}
+
+.button-language:hover {
+  border-color: white;
+  transition: 0s;
+}
+
+#podcasts {
+  background-color: rgb(9, 122, 75);
+}
+
+#made_for_you {
+  background-color: rgb(1, 62, 143);
+}
+
+#charts {
+  background-color: rgb(126, 77, 113);
+}
+
+#new_releases {
+  background-color: rgb(255, 0, 98)
+}
+
+#discover {
+  background-color: rgb(177, 120, 169);
+}
+
+#live_events {
+  background-color: rgb(121, 61, 189);
+}
+
+#pop {
+  background-color: white;
+}
+
+#equal {
+  background-color: white;
+}
+
+#mood {
+  background-color: white;
+}
+
+#decades {
+  background-color: white;
+}
+
+#hiphop {
+  background-color: white;
+}
+
+#in_the_car {
+  background-color: white;
+}
+
+#gaming {
+  background-color: white;
+}
+
+#wellnes {
+  background-color: white;
+}
+
+#lol {
+  background-color: white;
+}
+
+#workout {
+  background-color: white;
+}
