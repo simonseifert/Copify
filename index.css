@@ -25,12 +25,7 @@ body {
     background-color: rgb(17, 17, 17);
     width: 100%;
     display: inline-block;
-}
-
-.header-left {
-    margin-left: 10px;
-    display: inline-block;
-    margin: 10px;
+    height: 65px;
 }
 
 .header-right {
@@ -56,7 +51,7 @@ body {
     grid-row-gap: 15px;
 }
 
-/* all buttons */ .button-premium, .button-support, .button-download, .button-signup, .button-login, .button-home, .button-search, .button-library, .button-create, .button-liked, .button-preview {
+/* all buttons */ .button-premium, .button-support, .button-download, .button-signup, .button-login, .button-home, .button-search, .button-library, .button-create, .button-liked, .button-preview, .button-language {
     border: none;
     font-weight: bold;
     color: rgb(170, 170, 170);
@@ -84,9 +79,9 @@ body {
     font-size: 15px;
 }
 
-/* header buttons on hover */ .button-premium:hover, .button-support:hover, .button-download:hover, .button-signup:hover, .button-login:hover, .button-preview:hover {
+/* header buttons on hover */ .button-premium:hover, .button-support:hover, .button-download:hover, .button-signup:hover, .button-login:hover, .button-preview:hover, .button-language:hover {
     scale: 1.04;
-    transition-duration: 0.3s;
+    transition-duration: 0.1s;
     color: white;
 }
 
@@ -185,7 +180,7 @@ body {
     visibility:hidden;
     position:absolute;
     left:60%;
-    top: 45%;
+    top: 40%;
     transition: 0.25s;
     transition-timing-function: linear;
     width: 0px;
@@ -199,7 +194,7 @@ body {
 }
 
 .item:hover .play-icon {
-    visibility:visible;
+    visibility: visible;
     transform: translateY(-5px);
     transition-timing-function: linear;
     width: 150px;
@@ -216,7 +211,7 @@ body {
 .preview {
     width: 100%;
     height: 68px;
-    background-image: linear-gradient(to right, rgb(192, 0, 192) , rgb(0, 164, 219));
+    background-image: linear-gradient(to right, #ae2896, #509bf5);
     letter-spacing: 1px;
 }
 
@@ -248,4 +243,48 @@ body {
 
 .preview-p2 {
     letter-spacing: 0.4px;
+}
+
+.policies {
+    position: absolute;
+    bottom: 170px;
+    margin-left: 25px;
+}
+
+.cookies {
+    color: #afafaf;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.cookies:hover {
+    text-decoration: underline;
+}
+
+.button-language {
+    position: absolute;
+    bottom: 100px;
+    margin-left: 25px;
+    color: white;
+    font-size: 13px;
+    letter-spacing: 0.8px;
+    border-color: #999999;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    height: 30px;
+    padding-right: 10px;
+    vertical-align: middle;
+    padding-bottom: 2px;
+}
+
+.globe {
+    height: 15px;
+    margin-left: 5px;
+    vertical-align: text-bottom;
+}
+
+.button-language:hover {
+    border-color: white;
+    transition: 0s;
 }
