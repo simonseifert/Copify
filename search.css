@@ -8,7 +8,7 @@ body {
 }
 
 .navigation {
-  height: 900px;
+  height: 906px;
   width: 240px;
   background-color: black;
   display: inline-block;
@@ -22,7 +22,7 @@ body {
 
 .header {
   vertical-align: top;
-  background-color: rgb(17, 17, 17);
+  background-color: rgb(10, 10, 10);
   width: 100%;
   display: inline-block;
   height: 65px;
@@ -106,20 +106,20 @@ body {
   text-align: center;
 }
 
-.button-home {
+.button-search {
   color: white;
 }
 
 .headerpluscontent {
   display: inline-block;
   width: calc(100% - 240px);
-  height: 900px;
+  height: 906px;
 }
 
 .content {
   padding: 5px 30px 200px;
-  background-image: linear-gradient(rgb(31, 31, 31) , rgb(8, 8, 8));
-  height: calc(900px - 70px);
+  background-image: linear-gradient(rgb(19, 19, 19), rgb(20, 20, 20));
+  height: calc(906px - 70px);
   padding-bottom: 0;
 }
 
@@ -135,6 +135,8 @@ body {
   gap: 20px;
   flex-direction: row;
   flex-wrap: wrap;
+  max-height: 735px;
+  overflow: auto;
 }
 
 .item {
@@ -146,6 +148,8 @@ body {
   height: 150px;
   width: 150px;
   padding-top: 20px;
+  overflow: hidden;
+
 }
 
 .item h4 {
@@ -160,7 +164,7 @@ body {
 .main {
   display: grid;
   grid-template-columns: 240px 100%;
-  height: 900px;
+  height: 906px;
 }
 
 .preview {
@@ -244,66 +248,183 @@ body {
   transition: 0s;
 }
 
+.header-left {
+  float: left;
+}
+
+.header-left a {
+  margin-left: 30px;
+  margin-right: -25px;
+}
+
+.header-left a img {
+  width: 35px;
+  transform: translate(0px, 8px);
+}
+
+.search-bar {
+  border-radius: 20px;
+  height: 40px;
+  width: 350px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  display: inline-block;
+  margin-top: 12px;
+  margin-left: 30px;
+}
+
+.search-bar img {
+  width: 30px;
+  transform: translate(0px, 5px);
+}
+
+.search-input {
+  border: none;
+  width: 300px;
+  height: 30px;
+  margin-left: 5px;
+  transform: translate(0px, -5px);
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.image {
+  transform: translate(80px, 30px);
+}
+
+.img {
+  width: 100px;
+  rotate: 30deg;
+}
+
 #podcasts {
-  background-color: rgb(9, 122, 75);
+  background-color: rgb(39, 133, 106);
 }
 
 #made_for_you {
-  background-color: rgb(1, 62, 143);
+  background-color: rgb(30, 50, 100);
 }
 
 #charts {
-  background-color: rgb(126, 77, 113);
+  background-color: rgb(141, 103, 171);
 }
 
 #new_releases {
-  background-color: rgb(255, 0, 98)
+  background-color: rgb(232, 17, 91);
 }
 
 #discover {
-  background-color: rgb(177, 120, 169);
+  background-color: rgb(141, 103, 171);
 }
 
 #live_events {
-  background-color: rgb(121, 61, 189);
+  background-color: rgb(115, 88, 255);
 }
 
 #pop {
-  background-color: white;
+  background-color: rgb(180, 155, 200);
 }
 
 #equal {
-  background-color: white;
+  background-color: rgb(20, 138, 8);
 }
 
 #mood {
-  background-color: white;
+  background-color: rgb(240, 55, 165);
 }
 
 #decades {
-  background-color: white;
+  background-color: rgb(186, 93, 7);
 }
 
 #hiphop {
-  background-color: white;
+  background-color: rgb(156, 240, 225);
 }
 
 #in_the_car {
-  background-color: white;
+  background-color: rgb(71, 125, 149);
 }
 
 #gaming {
-  background-color: white;
+  background-color: rgb(232, 17, 91);
 }
 
 #wellnes {
-  background-color: white;
+  background-color: rgb(215, 242, 125);
 }
 
 #lol {
-  background-color: white;
+  background-color: rgb(20, 138, 8);
 }
 
 #workout {
-  background-color: white;
+  background-color: rgb(119, 119, 119);
+}
+
+#chill {
+  background-color: rgb(141, 103, 171);
+}
+
+#focus {
+  background-color: rgb(80, 55, 80);
+}
+
+#sleep {
+  background-color: rgb(30, 50, 100);
+}
+
+#party {
+  background-color: rgb(115, 88, 255);
+}
+
+#indie {
+  background-color: rgb(175, 40, 150);
+}
+
+#metal {
+  background-color: rgb(119, 119, 119);
+}
+
+#rock {
+  background-color: rgb(235, 30, 50);
+}
+
+#dance {
+  background-color: rgb(13, 115, 236);
+}
+
+#cooking {
+  background-color: rgb(186, 93, 7);
+}
+
+#jazz {
+  background-color: rgb(80, 155, 245);
+}
+
+#rb {
+  background-color: rgb(220, 20, 140);
+}
+
+#instrumental {
+  background-color: rgb(71, 125, 149);
+}
+
+#romance {
+  background-color: rgb(140, 25, 50);
+}
+
+#soul {
+  background-color: rgb(220, 20, 140);
+}
+
+#kids {
+  background-color: rgb(141, 103, 171);
+}
+
+#classical {
+  background-color: rgb(141, 103, 171);
 }
