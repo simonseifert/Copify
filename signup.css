@@ -1,0 +1,273 @@
+*{
+  margin: 0;
+}
+
+body {
+  background-color: white;
+  font-family: 'Monseratt', sans-serif;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#logo {
+  width: 60px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+hr {
+  margin-bottom: 30px;
+  border-color: white;
+  overflow: hidden;
+}
+
+p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#head {
+  font-size: 30px;
+  letter-spacing: -2px;
+  margin-bottom: 35px;
+}
+
+button {
+  display: block;
+  margin: auto;
+  width: 90%;
+  height: 50px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  border-color: rgb(170, 170, 170);
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+  border: none;
+}
+
+#button-fb {
+  background-color: rgba(0, 62, 177, 0.76);
+  color: rgb(240, 240, 240);
+}
+
+#button-fb:hover {
+  background-color: rgba(0, 52, 148, 0.76);
+}
+
+#button-google {
+  background-color: white;
+  color: rgb(80, 80, 80);
+  margin-bottom: 30px;
+  border-style: solid;
+  border-width: 2px;
+}
+
+button:hover {
+  border-color: black;
+  scale: 1.05;
+}
+
+.img {
+  width: 20px;
+  margin-right: 15px;
+  vertical-align: bottom;
+}
+
+#or {
+  transform: translateY(-40px);
+  background-color: white;
+  width: 70px;
+  margin: auto;
+  font-weight: bold;
+  font-size: 14px;
+  color: gray;
+  letter-spacing: 3px;
+}
+
+#hr-or {
+  margin-top: 25px;
+}
+
+.main {
+  width: 450px;
+  margin: auto;
+  padding-top: 10px;
+  margin-bottom: 150px;
+}
+
+.form {
+  text-align: start;
+  margin-top: -15px;
+}
+
+input, #select {
+  width: 100%;
+  height: 45px;
+  border-color: rgb(170, 170, 170);
+  border-width: 1px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  font-size: 14px;
+  padding-left: 15px;
+  letter-spacing: 1px;
+}
+
+input:hover {
+  border-color: black;
+}
+
+p {
+  font-size: 13px;
+}
+
+a {
+  color: rgb(20, 20, 20);
+  display: block;
+}
+
+#button-login:hover {
+  scale: 1.05;
+}
+
+#button-signup {
+  background-color: white;
+  border-color: rgb(170, 170, 170);
+  color: gray;
+}
+
+#button-signup:hover {
+  border-color: black;
+}
+
+#signup {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 17px;
+}
+
+#this {
+  font-weight: 500;
+  margin-top: -15px;
+  margin-bottom: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 80px 200px 100px;
+  grid-row-gap: 10px;
+  margin-top: 15px;
+  font-size: 14px;
+  grid-column-gap: 25px;
+}
+
+#select {
+  background-color: white;
+  border-color: gray;
+}
+
+#radio {
+  width: 15px;
+  height: 15px;
+  margin: 10px 10px 40px 0;
+}
+
+#gender {
+  display: inline;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 30px;
+}
+
+.check {
+  display: inline;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.checkbox {
+  width: 17px;
+  height: 17px;
+  margin-right: 10px;
+}
+
+.recaptcha {
+  background-color: rgb(245, 245, 245);
+  border-color: lightgray;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 0px 1px rgba(0,0,0,.5);
+  width: 60%;
+  height: 75px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.check-captcha {
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+.recaptcha p {
+  display: inline-block;
+  margin-left: 15px;
+  font-size: 14px;
+  font-weight: 500;
+  height: 100%;
+  vertical-align: middle;
+  margin-top: 30px;
+}
+
+.recaptcha img {
+  float: right;
+  margin-top: 13px;
+  margin-right: 15px;
+}
+
+.small {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.green {
+  color: rgb(0, 187, 84);
+  font-weight: 500;
+}
+
+.green:hover {
+  color: rgb(0, 221, 99);
+}
+
+.centered {
+  text-align: center;
+  width: 100%;
+}
+
+.centered p a {
+  display: inline;
+}
+
+.button-signup {
+  width: 150px;
+  height: 60px;
+  background-color: rgb(0, 211, 95);
+  border: none;
+  display: block;
+  margin-top: 15px;
+  font-size: 16px;
+  border-radius: 30px;
+}
+
+.button-signup:hover {
+  scale: 1.05;
+  background-color: rgb(0, 221, 99);
+}
+
+#account {
+  font-size: 17px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}

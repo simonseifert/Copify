@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up - Copify</title>
+  <link rel="stylesheet" href="signup.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <img src="images/logo2.jpg" id="logo">
+  <div class="main">
+    <p id="head">Sign up for free to start listening.</p>
+      
+    <button id="button-fb">
+      <img src="images/login/facebook.png" class="img">Sign up with Fakebook</button>
+    <button id="button-google">
+      <img src="images/login/google.png" class="img">Sign up with Guugle</button>
+     
+    <hr id="hr-or">
+    <div id="or">or</div>
+
+    <div class="form">
+      <p id="signup">Sign up with your email address</p>
+
+      <p>What's your email?</p>
+      <input type="text" placeholder="Enter your email.">
+      <p>Confirm your email</p>
+      <input type="text" placeholder="Enter your email again.">
+      <p>Create a password</p>
+      <input type="text" placeholder="Create a password.">
+      <p>What should we call you?</p>
+      <input type="text" placeholder="Enter a profile name.">
+      <p id="this">This appears on your profile.</p>
+
+      <p>What's your date of birth?</p>
+
+      <div class="grid">
+        <div>Day</div>
+        <div>Month</div>
+        <div>Year</div>
+        <input type="text" placeholder="DD">
+        <select name="month" id="select">
+          <option value="" disabled selected>Month</option>
+          <option value="">January</option>
+          <option value="">February</option>
+          <option value="">March</option>
+          <option value="">April</option>
+          <option value="">May</option>
+          <option value="">June</option>
+          <option value="">July</option>
+          <option value="">August</option>
+          <option value="">September</option>
+          <option value="">October</option>
+          <option value="">November</option>
+          <option value="">December</option>
+        </select>      
+        <input type="text" placeholder="YYYY">
+      </div>
+
+      <p>What's yout gender?</p>
+      <input type="radio" name="gender" value="" id="radio">
+      <p id="gender">Male</p>
+      <input type="radio" name="gender" value="" id="radio">
+      <p id="gender">Female</p><br>
+
+      <input type="checkbox" class="checkbox">
+      <p class="check">I would prefer not to receive marketing messages from Copify</p><br>
+      <input type="checkbox" class="checkbox">
+      <p class="check">Share my registration data with Copify's content providers.</p>
+        
+      <div class="recaptcha">
+        <input type="checkbox" class="check-captcha">
+        <p>I'm not a robot</p>
+        <img src="images/captcha.png" alt="">
+      </div>
+
+      <div class="centered">
+        <p class="small">By clicking on sign-up, you agree to Copify's <a href="" class="green">Terms and Conditions of Use</a>.</p>
+        <p class="small">To learn more about how Copify collects, uses, shares and protects your personal data, please see <a href="" class="green">Copify's Privacy Policy</a>.</p>
+        <button class="button-signup">Sign up</button>
+        <p id="account">Have an account? <a href="login.html" class="green">Log in</a>.</p>
+      </div>      
+      
+    </div>
+      
+  </div>
+
+</body>
+</html>
