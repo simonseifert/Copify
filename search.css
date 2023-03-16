@@ -140,25 +140,22 @@ body {
 }
 
 .item {
-  min-width: 100px;
-  padding: 15px;
   border-radius: 6px;
   cursor: pointer;
   position:relative;
-  height: 150px;
-  width: 150px;
-  padding-top: 20px;
+  height: 180px;
+  width: 180px;
   overflow: hidden;
-
 }
 
 .item h4 {
   color: #ffffff;
   font-size: 22px;
-  margin-bottom: 10px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  margin-left: 15px;
+  margin-top: 20px;
 }
 
 .main {
@@ -186,6 +183,10 @@ body {
   height: 50px;
   width: 150px;
   margin-right: 20px;
+}
+
+.button-preview:hover {
+  color: black;
 }
 
 .preview-text {
@@ -272,7 +273,7 @@ body {
   padding-left: 10px;
   display: inline-block;
   margin-top: 12px;
-  margin-left: 30px;
+  margin-left: 40px;
 }
 
 .search-bar img {
@@ -293,138 +294,132 @@ body {
 }
 
 .image {
-  transform: translate(80px, 30px);
+  transform: translate(100px, 35px);
 }
 
 .img {
   width: 100px;
-  rotate: 30deg;
+  rotate: 25deg;
 }
+
 
 #podcasts {
   background-color: rgb(39, 133, 106);
 }
-
 #made_for_you {
   background-color: rgb(30, 50, 100);
 }
-
 #charts {
   background-color: rgb(141, 103, 171);
 }
-
 #new_releases {
   background-color: rgb(232, 17, 91);
 }
-
 #discover {
   background-color: rgb(141, 103, 171);
 }
-
 #live_events {
   background-color: rgb(115, 88, 255);
 }
-
 #pop {
   background-color: rgb(180, 155, 200);
 }
-
 #equal {
   background-color: rgb(20, 138, 8);
 }
-
 #mood {
   background-color: rgb(240, 55, 165);
 }
-
 #decades {
   background-color: rgb(186, 93, 7);
 }
-
 #hiphop {
   background-color: rgb(156, 240, 225);
 }
-
 #in_the_car {
   background-color: rgb(71, 125, 149);
 }
-
 #gaming {
   background-color: rgb(232, 17, 91);
 }
-
 #wellnes {
   background-color: rgb(215, 242, 125);
 }
-
 #lol {
   background-color: rgb(20, 138, 8);
 }
-
 #workout {
   background-color: rgb(119, 119, 119);
 }
-
 #chill {
   background-color: rgb(141, 103, 171);
 }
-
 #focus {
   background-color: rgb(80, 55, 80);
 }
-
 #sleep {
   background-color: rgb(30, 50, 100);
 }
-
 #party {
   background-color: rgb(115, 88, 255);
 }
-
 #indie {
   background-color: rgb(175, 40, 150);
 }
-
 #metal {
   background-color: rgb(119, 119, 119);
 }
-
 #rock {
   background-color: rgb(235, 30, 50);
 }
-
 #dance {
   background-color: rgb(13, 115, 236);
 }
-
 #cooking {
   background-color: rgb(186, 93, 7);
 }
-
 #jazz {
   background-color: rgb(80, 155, 245);
 }
-
 #rb {
   background-color: rgb(220, 20, 140);
 }
-
 #instrumental {
   background-color: rgb(71, 125, 149);
 }
-
 #romance {
   background-color: rgb(140, 25, 50);
 }
-
 #soul {
   background-color: rgb(220, 20, 140);
 }
-
 #kids {
   background-color: rgb(141, 103, 171);
 }
-
 #classical {
   background-color: rgb(141, 103, 171);
+}
+#latin {
+  background-color: rgb(220, 20, 140);
+}
+#songwriters {
+  background-color: rgb(140, 25, 50);
+}
+#caribbean {
+  background-color: rgb(80, 155, 245);
+}
+#blues {
+  background-color: rgb(30, 50, 100);
+}
+#funk {
+  background-color: rgb(235, 30, 50);
+}
+#punk {
+  background-color: rgb(30, 50, 100);
+}
+#country {
+  background-color: rgb(180, 155, 200);
+}
+#folk {
+  background-color: rgb(40, 62, 163);
 }
