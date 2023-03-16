@@ -3,20 +3,49 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Copify</title>
   <link rel="stylesheet" href="login.css">
-  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
-<body>
-  <div class="main">
-    <img src="images/logo2.jpg" alt="">
-    <hr>
-    <p>To continue, log in to Spotify.</p>
-    <button></button>
-    <button></button>
-    <button></button>
-    <hr>
-    <div>OR</div>
 
-  </div>
+<body>
+  <img src="images/logo2.jpg" id="logo">
+  <hr>
+  <div class="main">
+    <p>To continue, log in to Copify.</p>
+      
+    <button id="button-fb">
+      <img src="images/login/facebook.png" class="img">CONTINUE WITH FAKEBOOK</button>
+    <button id="button-apple">
+        <img src="images/login/apple.png" class="img">CONTINUE WITH ABBLE</button>
+    <button id="button-google">
+      <img src="images/login/google.png" class="img">CONTINUE WITH GUUGLE</button>
+     
+    <hr id="hr-or">
+    <div id="or">OR</div>
+
+    <div class="form">
+      <p id="email">Email address or username</p>
+      <input type="text" placeholder="Email address or username">
+      <p id="pass">Password</p>
+      <input type="text" placeholder="Password">
+      <a href="">Forgot your password?</a>
+
+      <div class="footer">
+        <input type="checkbox" id="checkbox">
+        <p id="remember">Remember me</p>
+        <button id="button-login">LOG IN</button>
+      </div>
+      
+    </div>
+
+    <hr>
+    <p id="account">Don't have an account?</p>
+
+    <button id="button-signup" onclick="document.location='signup.html'">SIGN UP FOR COPIFY</button>
+    </div>
+
 </body>
 </html>
