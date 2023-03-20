@@ -10,7 +10,7 @@ Download and extract the files and open "index.html", preferably with chromium w
 
 ## Usage
 
-"index.html" is the main page. From it, navigate thru "search.html", "login.html" and "signup.html". It is frontend only and is not capable of playing music or creating accounts.
+"index.html" is the main page. From it, navigate thru "search.html", "login.html" and "signup.html" by clicking on buttons that say Search, Login or Sign up. It is frontend only and is not capable of playing music or creating accounts.
 
 ## Contributing
 
