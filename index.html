@@ -12,14 +12,33 @@
 
 <body>
 
+  <div id="overlay">
+    <div class="overlay-box">
+
+      <div class="overlay-img">
+        <img src="images/playlists/focus/1.jpeg"></div>
+      <div class="overlay-content">
+        <div class="content-box">
+          <p id="overlay-text">Start listening with a free Spotify account</p>
+          <button id="button-signup">Sign up free</button>
+          <button id="button-download">Download app</button>
+          <p>Already have an account? <a href="">Log in</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="close-button">
+      <button id="button-close">Close</button>
+    </div>
+  </div>
+
   <div class="main">
 
     <div class="navigation">
 
       <a href="https://open.spotify.com" target="_blank">
-          <img class="logo" src="images/logo.jpeg" alt=""></a>
+        <img class="logo" src="images/logo.jpeg" alt=""></a>
         
-          <div class="grid-nav1">
+        <div class="grid-nav1">
             <img src="images/home1.jpeg" width="25px">
             <button class="button-home" onclick="document.location='index.html'">Home</button>
             <img src="images/search0.jpg" width="25px">
@@ -28,7 +47,7 @@
             <button class="button-library">Your Library</button>
         </div>
 
-        <div class="grid-nav2">
+      <div class="grid-nav2">
           <img src="images/create.jpeg" width="25px">
           <button class="button-create">Create Playlist</button>
           <img src="images/liked.png" width="25px">
@@ -67,9 +86,9 @@
         <div class="list">
 
           <div class="item">
-            <img class="item-img" src="images/playlists/focus/1.jpeg" alt="">
+            <img class="item-img" src="images/playlists/focus/1.jpeg">
             <span class="play-icon">
-              <img src="images/play-icon.png" width="32" height="32" alt="">
+              <img src="images/play-icon.png" width="32" height="32" id="play-img">
             </span>
             <h4>Peaceful Piano</h4>
             <p>Relax and indulge with beautiful piano pieces</p>
@@ -231,6 +250,17 @@
         </button>
       </div>
     </div>
+
+  <script>
+    document.getElementById("play-img").onclick = function() {overlayOn()};
+    document.getElementById("button-close").onclick = function() {overlayOff()};
+
+    function overlayOn() {
+      document.getElementById("overlay").style.display = "block";}
+
+    function overlayOff() {
+      document.getElementById("overlay").style.display = "none";}
+  </script>
 
 </body>
 </html>
