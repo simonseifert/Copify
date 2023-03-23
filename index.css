@@ -5,6 +5,7 @@
 body {
     background-color: rgb(31, 31, 31);
     font-family: 'Monseratt', sans-serif;
+    height: 100%;
 }
 
 .navigation {
@@ -311,6 +312,7 @@ hr {
 .header-left a {
     margin-left: 30px;
     margin-right: -25px;
+    display: inline-block;
 }
   
 .header-left a img {
