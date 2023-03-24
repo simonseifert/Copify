@@ -364,7 +364,7 @@ hr {
 }
 
 #overlay-text {
-    font-size: 32px;
+    font-size: 28px;
     color: white;
     font-weight: bold;
     height: 100px;
@@ -449,7 +449,7 @@ hr {
 
 #overlay-text-acc {
     margin: auto;
-    width: 210px;
+    width: 240px;
     margin-top: 40px;
     display: block;
 }
